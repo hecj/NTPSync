@@ -1,4 +1,4 @@
-package org.example;
+package cn.xylink.cloud.server.ntp;
 
 import java.io.Serializable;
 
@@ -79,8 +79,6 @@ public class NTPRequest implements Serializable{
 		 * 		o = 1/2 * (T2 - T1 + T3 - T4)
 		 */
 		o = 0.5 * (t2 - t1 + t3 - t4);
-		
-		// Print these values
 		System.out.println(o + "\t\t" + d);
 	}
 
